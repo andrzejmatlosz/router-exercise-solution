@@ -1,0 +1,5 @@
+<div *ngFor="let movie of movies">
+    {{movie.title}} <button (click)="selectMovie(movie)">Details</button>
+</div>
+
+<router-outlet></router-outlet>
